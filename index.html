@@ -28,23 +28,23 @@
   <body style="background-color:black;">
     <div class="container-fluid bg-inverse fixed-top">
     <!--Menu inicial-->
-    <nav class="navbar navbar-expand-lg" style="background-color:turquoise;" >
-        <a class="navbar-brand" href="#">
+    <nav id="mainNav" class="navbar navbar-expand-lg" style="background-color:turquoise;" >
+      <a class="navbar-brand" href="#"> 
             <img src="images/Diamante.png" width="30" height="30" class="d-inline-block align-top" alt="">
             SHINee FanPage
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         
             <div class="collapse navbar-collapse " id="navbarNav">
-                <div class="navbar-nav ml-auto">
+                <div class="navbar-nav mr-auto">
                     <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#miembros">Miembros</a>
+                    <a class="nav-item nav-link" href="#">Miembros</a>
                       <a class="nav-item nav-link" href="#">Acerca De</a>
-                    <a class="nav-item nav-link "href="#contacto" >Contacto</a>
+                    <a class="nav-item nav-link "href="#" >Contacto</a>
                   
                   </div>
             </div>
@@ -251,7 +251,7 @@ Color Oficial: Verde Azulado Perlado.
                 <div class="col text-uppercase">
                   <h1>CONTACTO<s/h1>
                 </div>
-              </div>
+              <!--</div>/*
             <div class="row">
               <div class="col col-md-8 offset-md-1 col-lg-6 offset-lg-2 pt-2">
                 <form>
@@ -272,8 +272,25 @@ Color Oficial: Verde Azulado Perlado.
 
               </div>
 
-            </div>
-</div>
+            </div>*/-->
+          </div>
+          <form>
+  <div class="form-group">
+      <label for="exampleFormControlInput1">Correo Electronico</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Nombre</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option></option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  </form>
+
 </section>
 <!--Fin Contacto-->
 
